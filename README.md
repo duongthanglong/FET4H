@@ -10,8 +10,8 @@ To use FET4H (e.g., MACOS), follow these steps:
 <pre> git  clone  https://github.com/duongthanglong/FET4H.git </pre>
 2. Install the required dependencies: `pip  install  -r  requirements.txt`
 3. Two using cases (standalone or as library in your Python project):
-    * Run as standalone: `python   FET4H`
-    * Import FET4H into your Python project: `import  FET4H`
+    * Run as standalone: `python   FET4H.py`
+    * Import FET4H into your Python project: `import  FET4H`, then you can create instance of FET4H class for manual using
     
 **1. Prerequisites**
 ### Input rules
