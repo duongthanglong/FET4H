@@ -8,8 +8,10 @@ Real-time visualizations include a pie chart showing the emotion distribution an
 To use FET4H (e.g., on macOS), follow these steps:
 1. Clone the repository:
 <pre> git  clone  https://github.com/duongthanglong/FET4H.git </pre>
-2. Install the required dependencies: `pip  install  -r  requirements.txt`
-3. Two usage scenarios for the FET4H system (standalone or as a library of the FET4H model in your Python project):
+2. Navigate to the folder containing the saved model `./FET4H_model`. Combine all chunks of the FET4H_model shards into a single file using the following command:
+<pre> cat  variables.data-00000-of-00001_*  >  variables.data-00000-of-00001 </pre>
+3. Install the required dependencies: `pip  install  -r  requirements.txt`
+4. Two usage scenarios for the FET4H system (standalone or as a library of the FET4H model in your Python project):
     * Run as standalone: `python   FET4H.py`
     * Import the FET4H_model into your Python project, and create an instance of the FET4H model for facial emotion prediction:
       <pre>   import  tensorflow  as  tf
