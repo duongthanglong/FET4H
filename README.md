@@ -5,7 +5,7 @@ The FET4H system monitors and evaluates patients' emotions for healthcare applic
 The FET4H software offers key functionalities, including face detection, facial emotion recognition, result tracking, and real-time visualization. It captures frames in real-time (e.g., from a webcam or RTSP stream) and uses libraries like MediaPipe to detect faces and extract bounding boxes. The integrated FET4H model classifies emotions (NEGative, NEUtral, POSitive) with confidence scores, displaying results on-screen in real-time and storing them for analysis.
 Real-time visualizations include a pie chart showing the emotion distribution and a line chart plotting confidence levels over time, both with dynamic updates and distinct colors. Captured images and detailed logs of detected faces and emotions are saved to a configurable folder for retraining or integration with other systems.
 ## Installation & usage
-To use FET4H (e.g., MACOS), follow these steps:
+To use FET4H (e.g., on macOS), follow these steps:
 1. Clone the repository:
 <pre> git  clone  https://github.com/duongthanglong/FET4H.git </pre>
 2. Install the required dependencies: `pip  install  -r  requirements.txt`
