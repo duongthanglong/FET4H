@@ -12,13 +12,10 @@ To use FET4H (e.g., MACOS), follow these steps:
 3. Two usage scenarios for the FET4H system (standalone or as a library of the FET4H model in your Python project):
     * Run as standalone: `python   FET4H.py`
     * Import FET4H_model into your Python project, then create an instance of the FET4H model for using facial emotion prediction:
-      <pre> 
-         import  tensorflow  as  tf
+      <pre> import  tensorflow  as  tf
          from  FET4H_model  import  *
          model = tf.keras.models.load_model('../FET4H_model')
-         y_preds = model.predict(#list_of_images#)         
-      </pre>
-    
+         y_preds = model.predict(#list_of_images#) </pre>    
 **1. Prerequisites**
 ### Input rules
 ### Running applications
