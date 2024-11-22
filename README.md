@@ -7,7 +7,7 @@ Real-time visualizations include a pie chart showing the emotion distribution an
 ## Installation
 To use FET4H, follow these steps:
 1. Clone the repository:
-<pre> ```git  clone  https://github.com/duongthanglong/FET4H.git``` </pre>
+<pre> git  clone  https://github.com/duongthanglong/FET4H.git </pre>
 2. Install the required dependencies: pip install -r requirements.txt
 3. Import FET4H into your Python project: import  fet4h
 ## Usage
