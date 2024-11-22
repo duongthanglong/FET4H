@@ -48,7 +48,7 @@ class FET4H:
         self.image_capture = _image_capture(self.par_image_source)
         self.mp_face_detector = mp.solutions.face_detection
         self.mp_drawing = mp.solutions.drawing_utils
-        self.emotion_recognizer = tf.keras.models.load_model('FET4H_model')
+        self.emotion_recognizer = tf.keras.models.load_model('../FET4H_model')
 
         # Main frame for layout organization
         self.main_frame = tkinter.Frame(self.window)
