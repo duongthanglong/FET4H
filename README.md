@@ -16,7 +16,8 @@ To use FET4H (e.g., MACOS), follow these steps:
          from  FET4H_model  import  *
          model = tf.keras.models.load_model('../FET4H_model')
          y_preds = model.predict(#list_of_images#) </pre>    
-      where, the #list_of_images# is normalized to [-1,1] with image shape of [70,70,3].
+      where, images in the #list_of_images# are normalized to [-1,1] with the shape of [70,70,3]. The predicted y_preds is an array of probability of emotions coresponding to images, they can be applied tf.argmax to get an emotion for each image.
+      
 **1. Prerequisites**
 ### Input rules
 ### Running applications
