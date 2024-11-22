@@ -16,7 +16,7 @@ To use FET4H (e.g., MACOS), follow these steps:
          import  tensorflow  as  tf
          from  FET4H_model  import  *
          model = tf.keras.models.load_model('../FET4H_model')
-         y_preds = model.predict(!list_of_images!)
+         y_preds = model.predict(_list_of_images_)
          
       </pre>
     
