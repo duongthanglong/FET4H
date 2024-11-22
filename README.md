@@ -6,7 +6,7 @@
 ## Installation
 
 ## Usage
-### Prerequisites
+**1. Prerequisites**
 ### Input rules
 ### Running applications
 ### Get outputs
