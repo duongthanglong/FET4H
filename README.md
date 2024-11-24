@@ -20,9 +20,9 @@ To use FET4H (e.g., on macOS), follow these steps:
          y_preds = model.predict(#list_of_images#) </pre>    
       Here, the images in `#list_of_images#` should be normalized to the range `[-1, 1]` and have the shape `[70, 70, 3]`. The predicted `y_preds` is an array of probabilities corresponding to emotions for each image. To obtain the predicted emotion for each image, apply `tf.argmax` on the probabilities. The emotion labels, by index, are as follows: `{0: 'negative', 1: 'neutral', 2: 'positive'}`
 ## Examples
-1. This is an example of the software:
+1. This is an example of screenshots from the software running:
 <br><img src="Screenshots.jpg" alt="Screenshot of the software" width="600">
-2. The video demo of software running:
+2. The video demo of the software running:
 <br><video controls><source src="FET4H.mp4" type="video/mp4">Your browser does not support the video tag.</video>
 ## Dataset for training and testing
 
