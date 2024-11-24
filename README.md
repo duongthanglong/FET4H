@@ -23,7 +23,8 @@ To use FET4H (e.g., on macOS), follow these steps:
 1. This is an example of screenshots from the software running:
 <br><img src="Screenshots.jpg" alt="Screenshot of the software" width="600">
 2. The video demo of the software running:
-<br><video controls><source src="FET4H.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+<br><video src="FET4H.mp4" width="480"></video>
+
 ## Dataset for training and testing
 
 
