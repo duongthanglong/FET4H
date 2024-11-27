@@ -1,7 +1,7 @@
 import cv2, time
 import threading
 
-_fixed_img = None#cv2.imread('/Users/duongthanglong/Google Drive/LHLK_Researching/@FaceRecognition/images/img2.jpg')
+_fixed_img = None
 class _image_capture(threading.Thread):
     queue_max_size = 500
     queue = []
@@ -68,7 +68,7 @@ if __name__ == "__main__":
     import os
     from datetime import datetime
     import time
-    a = _image_capture() #source="/Users/longduongthang/Google Drive/NCKH 2019:2020/Dữ liệu (Ân)/48c2.vcam.viettel.vn_14682_58250_1564362000_1564363800.mp4")
+    a = _image_capture() 
     pt = os.getcwd() + '/images'
     count = 1
     while True:
