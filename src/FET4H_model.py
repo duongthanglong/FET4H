@@ -211,7 +211,7 @@ class MyModel():
             return x
         return apply
 #==============================================================================#
-    # Define the Modified ConvNeXtV2 model: depths=[number of blocks in stages], dims=[number of output-channels in stages]
+    # Define model: depths=[number of blocks in stages], dims=[number of output-channels in stages]
     def create_FET4H(given_inputs=None, **input_shape_num_classes_downsamples_depths_dims_drop_path_rate):
         '''downsamples=[stem:(4-kernel, 4-stride), others:(-,-),(-,-),(-,-)], depths=[2,2,6,2], dims=[40,80,160,320]'''        
         ic4d = input_shape_num_classes_downsamples_depths_dims_drop_path_rate
