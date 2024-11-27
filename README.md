@@ -22,7 +22,7 @@ To use FET4H (e.g., on macOS), follow these steps:
 ## Examples
 This is an example of screenshots from the software running:
 <br><img src="Screenshots.jpg" alt="Screenshot of the software" width="600">
-## Dataset for training and testing
+## Datasets for training and testing
 1. CK+ is available in the paper: P. Lucey, J. F. Cohn, T. Kanade, J. Saragih and Z. Ambadar, "The Extended Cohn-Kanade Dataset (CK+): A complete dataset for action unit and emotion-specified expression," IEEE Computer Society Conference on Computer Vision and Pattern Recognition - Workshops, pp. 94-101, 2010. https://doi.org/10.1109/CVPRW.2010.5543262.
 2. OuluCASIA is available in the paper: G. Zhao, X. Huang, M. Taini, S. Z. Li and M. Pietikäinen, "Facial expression recognition from near-infrared videos," Image and Vision Computing, vol. 29, p. 607–619, 2011. https://doi.org/10.1016/j.imavis.2011.07.002.
 3. RAF-DB is available in the paper: S. a. D. W. Li, "Reliable Crowdsourcing and Deep Locality-Preserving Learning for Unconstrained Facial Expression Recognition," IEEE Transactions on Image Processing, vol. 28, no. 1, pp. 356-370, 2019. https://doi.org/10.1109/TIP.2018.2868382.
